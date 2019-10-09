@@ -106,3 +106,34 @@ html, body {
   font-size: 1.4rem;
   color: var(--p-color);
 }
+
+@media(max-width: 520px) {
+  #navbar ul li {
+    display: block;
+  }
+
+  #navbar ul > li:hover {
+    padding: 1rem 0;
+  }
+
+  #navbar ul li:hover ul {
+    position: relative;
+  }
+  
+  #navbar ul li:last-child {
+    border-bottom: 1px solid #cccccc;
+  }
+
+  #showcase {
+    height: calc(100vh - 15rem);
+    padding: 0 0.7rem;
+  }
+
+  #showcase h1 {
+    font-size: 2.6rem;
+  }
+
+  #showcase p {
+    font-size: 1.2rem;
+  }
+}
